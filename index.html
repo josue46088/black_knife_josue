@@ -4,40 +4,69 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="/Estilos/estilos.CSS" />
-  </head>
-  <body>
-    <div class="contenedor_principal">
-      <div class="encabezado">
-        <a href="" class="logo"
-          ><img src="/Estilos/imagenes/logo.png" alt=""
-        /></a>
-        <div class="menu">
-          <a href="/inicio.html" class="inicio">Inicio</a>
-          <a href="" class="inicio">Inicio</a>
-          <a href="" class="inicio">Inicio</a>
-          <a href="" class="inicio">Inicio</a>
-          <a href="" class="inicio">Inicio</a>
-        </div>
+    <link rel="stylesheet" href="Estilos/estilos.CSS" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+ </head>
+<body>
+  <!-- Contenedor principal -->
+  <div class="contenedor_principal">
+    
+    <!-- Encabezado del sitio -->
+    <header class="encabezado">
+      <a href="#" class="logo">
+        <img src="Estilos/imagenes/logo.png" alt="Logo" />
+      </a>
+
+      <!-- Icono de usuario -->
+      <div class="div-user">
+        <a href="/black_knife_josue/encuesta.html" class="user">
+          <i class="fa-solid fa-user"></i>
+        </a>
       </div>
-      <div class="contenedor_banner">
-        <img src="/Estilos/imagenes/banner.jpg" alt="" class="banner" />
-        <div class="contenedor_botones_banner">
-          <div class="cont_titulo">
-            <h1 class="titulo1">
-              Tú <br />
-              Barberia
-            </h1>
-            <div>
-              <p class="info">
-                BARBER SHOP, CORTE, BARBA, CEJAS, SPA DE UÑAS, TRATAMIENTOS.
-              </p>
+
+      <!-- Menú de navegación -->
+      <nav class="menu">
+        <a href="/inicio.html" class="inicio">Inicio</a>
+        <a href="#" class="inicio">Nosotros</a>
+        <a href="#" class="inicio">Membresías</a>
+        <a href="#" class="inicio">Productos</a>
+        <a href="#" class="inicio">Servicios</a>
+      </nav>
+
+      <!-- Ícono menú hamburguesa -->
+      <div class="div-bart">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </header>
+
+    <!-- Sección del banner -->
+    <section class="contenedor_banner">
+      <img src="Estilos/imagenes/banner.jpg" alt="Banner" class="banner" />
+      <div class="contenedor_botones_banner">
+        <div class="cont_titulo">
+          <h1 class="titulo1">
+            Tú <br />
+            Barberia
+          </h1>
+          <div>
+            <p class="info">
+              BARBER SHOP, CORTE, BARBA,<br>
+              CEJAS, SPA DE UÑAS, TRATAMIENTOS.
+            </p>
+            <!-- Botón de reserva -->            
+            <a href="/black_knife_josue/encuesta.html">
               <button>RESERVA TU CITA</button>
-            </div>
+            </a>            
           </div>
-          <button>Elige tu barberia</button>
         </div>
+        <!-- Botón de membresía -->
+        <button>ELIGE TU MEMBRESÍA</button>
       </div>
-    </div>
-  </body>
+    </section>
+
+  </div>
+</body>
+<script src="https://kit.fontawesome.com/0abca16e36.js" crossorigin="anonymous"></script>
 </html>
