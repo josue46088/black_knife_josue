@@ -19,7 +19,7 @@
 .div-user {
   margin-top: 40px;
   position: relative;
-  left: 1320px;
+  left: 1355px;
 }
 
 .div-bart { 
@@ -32,6 +32,7 @@
 .user{
   color:inherit;
   text-decoration: none;
+  
 }
 .encabezado{
   background-color: #021826;
@@ -87,6 +88,12 @@ button{
 
 .titulo1 {
   font-size: 50px;
+ display: flex;
+ gap: 20px;
+}
+
+.info {
+  margin-bottom: 20px;
 }
 
 .inicio { 
