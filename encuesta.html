@@ -7,9 +7,10 @@
     <title>Formulario de Citas</title>
 </head>
 <body>
+    <section class="fondo_form">
          <section class="form-register">
         <h3>Agenda tu cita</h3> 
-        <input class="controls" type="password" name="Cédula" id="ID" placeholder="Ingrese su Cédula">
+        <input class="controls" type="text" name="Cédula" id="ID" placeholder="Ingrese su Cédula">
         <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
         <input class="controls" type="number" name="Celular" id="Celular" placeholder="Ingrese su Celular">
         <h5>Fecha de nacimiento</h5>  
@@ -24,12 +25,22 @@
         <option value="luis">Gonzalo Campos</option>
         <option value="carlos">Santiago Angulo</option>
         <option value="david">David Sanchez</option>
-        </select>             
+        </select> 
+        <label for="barberos"></label>
+        <select class="controls">
+            <option value="" disabled selected>Elija un servicio</option>
+            <option value="corte">Corte de cabello</option>
+            <option value="arreglo">Arreglo de barba</option>
+            <option value="Spa">Spa de uñas</option>
+            <option value="cuidado">Tu cuidado</option>
+            <option value="tintura">Tintura</option>
+            <option value="cejas">Perfilación de cejas</option>
+        </select>        
             <p>Estoy de acuerdo con <a href="#">Términos y Condiciones</a></p>
-        <input class="botons" type="submit" value="Registrar">        
+         <button class="boton-comprar"type="submit">Registrar</button> <!--botón-->     
         <p><a href="#">¿Ya tienes una cuenta?</a></p>
     </section>
-    <a href="index.html" class="back-button">⇦</a>
-    
+    </section>
+    <a href="index.html" class="back-button">⇦</a>        
 </body>
 </html>
